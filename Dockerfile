@@ -1,2 +1,3 @@
+
 FROM nginx:alpine
-COPY ../../Desktop/wecharge /usr/share/nginx/html
+COPY . /usr/share/nginx/html
